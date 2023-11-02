@@ -1,0 +1,11 @@
+Using backend: pytorch
+fatal: not a git repository (or any of the parent directories): .git
+/home/trial/miniconda3/envs/alignn-env/lib/python3.9/site-packages/torch/cuda/__init__.py:107: UserWarning: CUDA initialization: Unexpected error from cudaGetDeviceCount(). Did you run some cuda functions before calling NumCudaDevices() that might have already set an error? Error 803: system has unsupported display driver / cuda driver combination (Triggered internally at /opt/conda/conda-bld/pytorch_1682343964576/work/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+usage: train_folder.py [-h] [--root_dir ROOT_DIR] [--config_name CONFIG_NAME]
+                       [--file_format FILE_FORMAT]
+                       [--classification_threshold CLASSIFICATION_THRESHOLD]
+                       [--batch_size BATCH_SIZE] [--epochs EPOCHS]
+                       [--output_dir OUTPUT_DIR]
+train_folder.py: error: unrecognized arguments: --restart_model_path train
+-folder

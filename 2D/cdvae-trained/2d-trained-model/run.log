@@ -1,0 +1,204 @@
+[2023-09-15 13:35:52,309][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 13:39:56,786][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 13:40:07,339][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.06824804097414017, stds: 0.09017515182495117)>
+[2023-09-15 13:40:07,339][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 13:40:07,340][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 13:40:07,340][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 13:40:07,343][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 13:40:07,343][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 13:40:13,995][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 13:40:14,019][hydra.utils][INFO] - Starting training!
+[2023-09-15 13:46:53,175][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 13:50:56,682][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 13:51:06,971][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.06824804097414017, stds: 0.09017515182495117)>
+[2023-09-15 13:51:06,971][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 13:51:06,971][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 13:51:06,972][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 13:51:06,974][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 13:51:06,974][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 13:51:14,119][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 13:51:14,143][hydra.utils][INFO] - Starting training!
+[2023-09-15 13:57:51,763][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 14:01:55,288][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 14:02:05,575][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.06824804097414017, stds: 0.09017515182495117)>
+[2023-09-15 14:02:05,576][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 14:02:05,576][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 14:02:05,577][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 14:02:05,579][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 14:02:05,579][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 14:02:13,140][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 14:02:13,164][hydra.utils][INFO] - Starting training!
+[2023-09-15 14:19:17,732][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 14:19:22,389][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 14:23:25,748][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 14:23:35,884][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.06824804097414017, stds: 0.09017515182495117)>
+[2023-09-15 14:23:35,885][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 14:23:35,885][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 14:23:35,886][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 14:23:35,887][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 14:23:35,888][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 14:23:47,102][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 14:23:47,126][hydra.utils][INFO] - Starting training!
+[2023-09-15 14:33:07,429][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 14:33:41,691][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 14:33:52,361][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 14:37:57,143][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 14:38:07,499][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.06824804097414017, stds: 0.09017515182495117)>
+[2023-09-15 14:38:07,500][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 14:38:07,500][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 14:38:07,501][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 14:38:07,503][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 14:38:07,503][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 14:38:14,440][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 14:38:14,464][hydra.utils][INFO] - Starting training!
+[2023-09-15 15:02:38,215][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 15:04:41,546][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 15:08:49,988][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 15:09:00,444][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.06824804097414017, stds: 0.09017515182495117)>
+[2023-09-15 15:09:00,445][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 15:09:00,445][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 15:09:00,446][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 15:09:00,448][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 15:09:00,448][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 15:09:07,374][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 15:09:07,398][hydra.utils][INFO] - Starting training!
+[2023-09-15 15:30:26,824][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 15:34:34,264][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 15:34:44,705][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.06824804097414017, stds: 0.09017515182495117)>
+[2023-09-15 15:34:44,706][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 15:34:44,706][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 15:34:44,707][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 15:34:44,708][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 15:34:44,709][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 15:34:50,818][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 15:34:50,843][hydra.utils][INFO] - Starting training!
+[2023-09-15 16:24:45,769][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 16:28:50,759][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 16:29:01,069][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.06824804097414017, stds: 0.09017515182495117)>
+[2023-09-15 16:29:01,070][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 16:29:01,070][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 16:29:01,071][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 16:29:01,073][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 16:29:01,073][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 16:29:12,414][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 16:29:12,438][hydra.utils][INFO] - Starting training!
+[2023-09-15 16:57:02,289][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 17:07:00,306][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 17:12:39,606][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 17:16:48,251][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 17:16:58,720][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.06824804097414017, stds: 0.09017515182495117)>
+[2023-09-15 17:16:58,721][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 17:16:58,721][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 17:16:58,721][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 17:16:58,723][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 17:16:58,724][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 17:17:04,644][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 17:17:04,668][hydra.utils][INFO] - Starting training!
+[2023-09-15 17:22:48,855][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 17:26:59,664][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 17:27:10,173][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.06824804097414017, stds: 0.09017515182495117)>
+[2023-09-15 17:27:10,173][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 17:27:10,174][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 17:27:10,174][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 17:27:10,176][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 17:27:10,177][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 17:27:16,687][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 17:27:16,711][hydra.utils][INFO] - Starting training!
+[2023-09-15 17:32:46,800][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 17:36:56,483][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 17:37:06,980][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.06824804097414017, stds: 0.09017515182495117)>
+[2023-09-15 17:37:06,981][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 17:37:06,981][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 17:37:06,982][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 17:37:06,984][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 17:37:06,984][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 17:37:13,090][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 17:37:13,115][hydra.utils][INFO] - Starting training!
+[2023-09-15 17:54:48,034][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 18:07:33,746][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 18:11:39,428][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 18:11:49,737][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.06824804097414017, stds: 0.09017515182495117)>
+[2023-09-15 18:11:49,738][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 18:11:49,738][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 18:11:49,739][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 18:11:49,741][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 18:11:49,742][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 18:11:55,727][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 18:11:55,751][hydra.utils][INFO] - Starting training!
+[2023-09-15 18:20:34,558][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 18:24:40,334][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 18:24:50,702][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.06824804097414017, stds: 0.09017515182495117)>
+[2023-09-15 18:24:50,703][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 18:24:50,703][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 18:24:50,704][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 18:24:50,706][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 18:24:50,706][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 18:25:01,199][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 18:25:01,221][hydra.utils][INFO] - Starting training!
+[2023-09-15 19:00:04,748][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 19:04:55,855][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 19:05:06,118][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.07079976797103882, stds: 0.09032513946294785)>
+[2023-09-15 19:05:06,119][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 19:05:06,119][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 19:05:06,120][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 19:05:06,122][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 19:05:06,122][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 19:05:11,620][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 19:05:11,644][hydra.utils][INFO] - Starting training!
+[2023-09-15 19:14:19,810][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 19:19:20,840][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 19:19:31,366][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.07079976797103882, stds: 0.09032513946294785)>
+[2023-09-15 19:19:31,367][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 19:19:31,367][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 19:19:31,368][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 19:19:31,369][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 19:19:31,370][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 19:19:46,841][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 19:19:46,864][hydra.utils][INFO] - Starting training!
+[2023-09-15 19:26:09,001][hydra.utils][INFO] - Starting testing!
+[2023-09-15 19:27:33,475][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 19:27:39,124][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 19:32:41,310][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 19:32:52,060][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.07079976797103882, stds: 0.09032513946294785)>
+[2023-09-15 19:32:52,061][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 19:32:52,061][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 19:32:52,062][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 19:32:52,063][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 19:32:52,064][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 19:32:58,039][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 19:32:58,066][hydra.utils][INFO] - Starting training!
+[2023-09-15 19:41:12,368][hydra.utils][INFO] - Starting testing!
+[2023-09-15 19:44:36,511][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 19:49:55,440][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 19:50:06,372][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.07079976797103882, stds: 0.09032513946294785)>
+[2023-09-15 19:50:06,373][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 19:50:06,373][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 19:50:06,374][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 19:50:06,375][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 19:50:06,376][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 19:50:18,458][hydra.utils][INFO] - found checkpoint: /home/ahmed/hydra/singlerun/2023-09-15/2d/epoch=14-step=224.ckpt
+[2023-09-15 19:50:18,459][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 19:50:18,486][hydra.utils][INFO] - Starting training!
+[2023-09-15 19:58:27,772][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 20:03:32,469][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 20:03:43,526][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.07079976797103882, stds: 0.09032513946294785)>
+[2023-09-15 20:03:43,527][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 20:03:43,527][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 20:03:43,528][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 20:03:43,530][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 20:03:43,530][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 20:03:54,305][hydra.utils][INFO] - found checkpoint: /home/ahmed/hydra/singlerun/2023-09-15/2d/epoch=14-step=224.ckpt
+[2023-09-15 20:03:54,305][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 20:03:54,331][hydra.utils][INFO] - Starting training!
+[2023-09-15 20:43:49,549][hydra.utils][INFO] - Instantiating <cdvae.pl_data.datamodule.CrystDataModule>
+[2023-09-15 20:47:58,393][hydra.utils][INFO] - Instantiating <cdvae.pl_modules.model.CDVAE>
+[2023-09-15 20:48:09,474][hydra.utils][INFO] - Passing scaler from datamodule to model <StandardScalerTorch(means: 0.07079976797103882, stds: 0.09032513946294785)>
+[2023-09-15 20:48:09,475][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-09-15 20:48:09,475][hydra.utils][INFO] - Adding callback <EarlyStopping>
+[2023-09-15 20:48:09,476][hydra.utils][INFO] - Adding callback <ModelCheckpoint>
+[2023-09-15 20:48:09,478][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-09-15 20:48:09,478][hydra.utils][INFO] - W&B is now watching <{cfg.logging.wandb_watch.log}>!
+[2023-09-15 20:48:16,769][hydra.utils][INFO] - found checkpoint: /home/ahmed/hydra/singlerun/2023-09-15/2d/epoch=274-step=2304.ckpt
+[2023-09-15 20:48:16,769][hydra.utils][INFO] - Instantiating the Trainer
+[2023-09-15 20:48:16,794][hydra.utils][INFO] - Starting training!
+[2023-09-15 22:17:23,693][hydra.utils][INFO] - Starting testing!
